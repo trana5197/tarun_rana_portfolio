@@ -31,7 +31,7 @@ function Header() {
             >
               <Link
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 transition hover:text-gray-950",
+                  "flex w-full items-center justify-center px-2 py-3 transition hover:text-gray-950 sm:px-3 sm:py-3",
                   { "text-gray-900": activeSection === link.name },
                 )}
                 href={link.hash}
