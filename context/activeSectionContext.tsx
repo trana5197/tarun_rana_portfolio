@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState } from "react";
 
-import type { SectionName } from "@/lib/types";
+import type { SectionName } from "./../lib/types";
 
 interface ActiveContextProviderProps {
   children: React.ReactNode;
