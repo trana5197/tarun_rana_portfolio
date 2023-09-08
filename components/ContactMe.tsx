@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 
@@ -12,6 +14,9 @@ import { sendEmail } from "../actions/sendEmail";
 
 function ContactMe() {
   const { ref } = useSectionInView("Contact", 0.5);
+
+  const [senderEmail, setSenderEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   return (
     <motion.section
@@ -44,6 +49,8 @@ function ContactMe() {
           }
 
           toast.success("Email sent successfully!");
+          setSenderEmail("");
+          setMessage("");
         }}
       >
         <input
@@ -52,6 +59,8 @@ function ContactMe() {
           type="email"
           required
           maxLength={500}
+          value={senderEmail}
+          onChange={(e) => setSenderEmail(e.target.value)}
           placeholder="Your email"
         />
 
@@ -60,10 +69,19 @@ function ContactMe() {
           name="message"
           className="my-3 h-52 rounded-lg border border-black/10 p-4"
           required
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
           maxLength={5000}
         />
-
-        <SubmitBtn />
+        <div className="flex items-center justify-around">
+          <button
+            type="reset"
+            className="h-[3rem] w-[8rem] rounded-full bg-gray-300 outline-none transition-all hover:scale-110 hover:bg-gray-200 focus:scale-110 active:scale-105"
+          >
+            Cancel
+          </button>
+          <SubmitBtn />
+        </div>
       </form>
     </motion.section>
   );
