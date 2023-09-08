@@ -18,6 +18,11 @@ function ContactMe() {
   const [senderEmail, setSenderEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  function resetForm() {
+    setSenderEmail("");
+    setMessage("");
+  }
+
   return (
     <motion.section
       ref={ref}
@@ -49,8 +54,7 @@ function ContactMe() {
           }
 
           toast.success("Email sent successfully!");
-          setSenderEmail("");
-          setMessage("");
+          resetForm();
         }}
       >
         <input
@@ -75,7 +79,7 @@ function ContactMe() {
         />
         <div className="flex items-center justify-around">
           <button
-            type="reset"
+            onClick={resetForm}
             className="h-[3rem] w-[8rem] rounded-full bg-gray-300 outline-none transition-all hover:scale-110 hover:bg-gray-200 focus:scale-110 active:scale-105"
           >
             Cancel
