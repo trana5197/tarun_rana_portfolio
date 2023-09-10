@@ -37,7 +37,7 @@ function About() {
         <span className="font-medium">
           JavaScript, TypeScript, Python, R, PHP, C++, and C#,
         </span>{" "}
-        complemented by proficiency in various frameworks and tools such as
+        complemented by proficiency in various frameworks and tools such as{" "}
         <span className="font-medium">
           React.js, Next.js, Node.js, Laravel, Git,
         </span>{" "}

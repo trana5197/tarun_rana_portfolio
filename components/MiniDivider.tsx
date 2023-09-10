@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function MiniDivider() {
   return (
     <motion.div
-      className="my-3 block h-6 w-1 rounded-full bg-gray-200 last:w-0"
+      className="my-3 block h-6 w-1 rounded-full bg-gray-200 last:w-0 dark:bg-opacity-20"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{

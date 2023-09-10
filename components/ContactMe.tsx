@@ -35,7 +35,7 @@ function ContactMe() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="-mt-6 text-gray-700">
+      <p className="-mt-6 text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a href="mailto:trana51997@gmail.com" className="underline">
           trana51997@gmail.com
@@ -44,7 +44,7 @@ function ContactMe() {
       </p>
 
       <form
-        className="mt-10 flex flex-col"
+        className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 
@@ -58,7 +58,7 @@ function ContactMe() {
         }}
       >
         <input
-          className="h-14 rounded-lg border border-black/10 px-4"
+          className="h-14 rounded-lg border border-black/10 px-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           name="senderEmail"
           type="email"
           required
@@ -71,7 +71,7 @@ function ContactMe() {
         <textarea
           placeholder="Your message"
           name="message"
-          className="my-3 h-52 rounded-lg border border-black/10 p-4"
+          className="my-3 h-52 rounded-lg border border-black/10 p-4 dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
