@@ -10,7 +10,7 @@ import Project from "./Project";
 import MiniDivider from "./MiniDivider";
 
 function Projects() {
-  const { ref } = useSectionInView("Projects", 0.2);
+  const { ref } = useSectionInView("Projects", 0.1);
 
   return (
     <section id="projects" className="scroll-mt-28" ref={ref}>

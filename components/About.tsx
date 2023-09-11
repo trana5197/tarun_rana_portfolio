@@ -7,12 +7,12 @@ import { useSectionInView } from "./../lib/hooks";
 import SectionHeading from "./SectionHeading";
 
 function About() {
-  const { ref } = useSectionInView("About", 0.75);
+  const { ref } = useSectionInView("About", 0.5);
 
   return (
     <motion.section
       ref={ref}
-      className="max-w-[45rem] scroll-mt-28 text-center leading-6"
+      className="max-w-[45rem] scroll-mt-28 text-center text-sm leading-6 sm:text-lg"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
