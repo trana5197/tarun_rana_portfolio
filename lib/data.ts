@@ -70,6 +70,25 @@ export const projectsData = [
     githubLink: "https://github.com/trana5197/world-oasis",
   },
   {
+    title: "E-Commerce",
+    description: [
+      `Created a dynamic e-commerce web app in C# and ASP.NET with user registration, shopping cart, and real-time order tracking, optimizing code structure using Factory Method and Repository Pattern.`,
+
+      `Ensured optimal functionality and user experience through rigorous testing procedures, including NUnit unit testing and Selenium end-to-end testing.`,
+
+      `Utilized C# and .NET technologies to create a scalable and maintainable codebase, enhancing application performance and enabling future development potential.`,
+    ],
+    tags: [
+      "C#",
+      "ASP.NET Core",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Microsoft SQL Server",
+    ],
+    githubLink: "https://github.com/trana5197",
+  },
+  {
     title: "Multi-layer Neural Network",
     description: [
       `Engineered a multi-layer neural network with TensorFlow and NumPy libraries in Python for image classification from the MNIST dataset; optimized inputted activation and loss functions to achieve 98.73% accuracy.`,
