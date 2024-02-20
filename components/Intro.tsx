@@ -65,7 +65,7 @@ function Intro() {
         Hello, I'm
         <span className="font-bold"> Tarun Rana.</span> I'm a Enthusiastic
         <span className="font-bold"> full-stack developer</span> with
-        <span className="font-bold"> 2 years of </span>
+        <span className="font-bold"> 3+ years of </span>
         professional experience in <span className="italic">web </span>
         <span className="italic">& software development</span> and a strong
         ability and willingness to{" "}
@@ -95,7 +95,7 @@ function Intro() {
 
         <a
           className="group flex cursor-pointer items-center gap-2 rounded-full border border-black/10 bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="/Tarun_Rana_Resume_2023.pdf"
+          href="/Tarun_Rana_Resume.pdf"
           download
         >
           Download CV{" "}
