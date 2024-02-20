@@ -32,20 +32,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full-Stack Developer",
+    location: "Arlington, TX",
+    description:
+      "I am volunterring as a full-stack developer for UT Arlington. My stack includes Styled Componenets, React (React-router, React-query, Context API and React hooks), TypeScript, Web Sockets, Node.js (Express, JWT, RESTful API, Mongoose ODM), MongoDB, git, AWS (EC2, S3, IAM, Lambda etc). I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Sept 2023 - Present",
+  },
+  {
     title: "University of Texas at Arlington",
     location: "Arlington, TX",
     description:
       "Completed my Master's of Science in Computer Science (Aug 2021 - May 2023) with 3.75 GPA.",
     icon: React.createElement(HiAcademicCap),
-    date: "2021 - 2023",
+    date: "Aug 2021 - May 2023",
   },
   {
     title: "Full-Stack Developer",
     location: "Mumbai, IN",
     description:
-      "I worked as a full-stack developer for 1.3 years in Mindise Pvt Ltd. My stack includes HTML5, CSS3, SASS, JavaScript, React (React-router, Redux/toolkit, Context API and React hooks), TypeScript, Node.js (Express, JWT, RESTful API, Mongoose ODM), MongoDB and git. I'm open to full-time opportunities.",
+      "I worked as a full-stack developer for 1.3 years in Mindise Pvt Ltd. My stack includes HTML5, CSS3, SASS, JavaScript, React (React-router, Redux/toolkit, Context API and React hooks), TypeScript, Node.js (Express, JWT, RESTful API, Prisma ORM), PostgreSQL and git.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "April 2020 - May 2021",
   },
   {
     title: "University of Mumbai",
@@ -53,21 +61,40 @@ export const experiencesData = [
     description:
       "Completed my Bachelor's of Engineering in Computer Engineering (Aug 2014 - May 2018) with 3.50 GPA.",
     icon: React.createElement(HiAcademicCap),
-    date: "2014 - 2018",
+    date: "Aug 2014 - May 2018",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "World Oasis",
+    title: "Neighborhood",
     description: [
-      `Developed a dynamic web application using React.js, integrating Supabase—a modern data platform—for efficient database management and real-time updates.`,
-      `Employed Styled Components for consistent and visually appealing styling, enhancing the user interface across application components.`,
-      `Implemented React Query to optimize data handling, resulting in faster updates and improved user responsiveness. `,
-      `Enriched user experience by adding functionalities such as Filtering, Pagination, Sorting, and a Dark Mode feature, while ensuring security through robust Authorization and Authentication integration.`,
+      `Challenged to resolve significant real-world challenges faced within university campuses. A lot of household commodities were dumped every semester during the move-out date. And new students must either buy a new one or get it from a far place. This issue was addressed and resolved.`,
+      `Develop a web app where students and faculty members can log in using their university email ID to leverage this app and buy or sell items by connecting to respective people.`,
+      `Front end side of the application was developed in TypeScript and React.js. Fetching was done using React-query. Routing with react-router. Many other third-party libraries were used like react-icons, socket.io, Axios, etc.`,
+      `A real-time chat application was implemented using socket.io.`,
+      `RESTful API was developed using Typescript and Node.js (express.js), web sockets, and many other third-party libraries. Backend including secure authentication and authorization system with help of JWT, bcrypt package. Images were handled using multer, sharp. And tested with the help of Postman.`,
+      `Data was stored in the NoSQL database MongoDB using Mongoose as ODM where reference and embedded relationships were used.`,
+      `Github was used as version control and the app was deployed on AWS EC2 (Ubuntu 20.04), and images were stored in AWS S3. Plus nginx was used as a reverse proxy.`,
+      `Web app is successfully deployed and working and helping many students.`,
     ],
-    tags: ["React.js", "React query", "Supabase (Postgres SQL)", "RESTful API"],
-    githubLink: "https://github.com/trana5197/world-oasis",
+    tags: [
+      "Typescript",
+      "React.js",
+      "Styled Components",
+      "React-query",
+      "React-router",
+      "Node.js (express.js)",
+      "Web Sockets",
+      " AWS (EC2, S3, Elastic IP, IAM roles)",
+      "Nginx",
+      "Git",
+      "MongoDB",
+      "Mongoose",
+      "Bash",
+      "Postman",
+    ],
+    githubLink: "https://www.uta-neigh.xyz/login",
   },
   {
     title: "E-Commerce",
