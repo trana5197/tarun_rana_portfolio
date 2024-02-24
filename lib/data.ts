@@ -94,7 +94,7 @@ export const projectsData = [
       "Bash",
       "Postman",
     ],
-    githubLink: "https://www.uta-neigh.xyz/login",
+    githubLink: "https://www.utaneigh.xyz/login",
   },
   {
     title: "E-Commerce",
@@ -180,7 +180,7 @@ export const projectsData = [
       `,
     ],
     tags: ["Typescript", "Tailwind CSS", "Next.js", "GitHub", "Vercel"],
-    githubLink: "https://github.com/trana5197/tarun_rana_portfolio_2023",
+    githubLink: "https://github.com/trana5197/tarun_rana_portfolio",
   },
 ] as const;
 
