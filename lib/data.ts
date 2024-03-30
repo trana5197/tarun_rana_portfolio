@@ -51,9 +51,9 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Mumbai, IN",
     description:
-      "I worked as a full-stack developer for 1.3 years in Mindise Pvt Ltd. My stack includes HTML5, CSS3, SASS, JavaScript, React (React-router, Redux/toolkit, Context API and React hooks), TypeScript, Node.js (Express, JWT, RESTful API, Prisma ORM), PostgreSQL and git.",
+      "I worked as a full-stack developer for 2+ years in Mindise Pvt Ltd. My stack includes HTML5, CSS3, SASS, JavaScript, React (React-router, Redux/toolkit, Context API and React hooks), TypeScript, Node.js (Express, JWT, RESTful API, Prisma ORM), PostgreSQL and git.",
     icon: React.createElement(CgWorkAlt),
-    date: "April 2020 - May 2021",
+    date: "Feb 2019 - May 2021",
   },
   {
     title: "University of Mumbai",
